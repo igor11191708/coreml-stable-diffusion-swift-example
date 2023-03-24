@@ -1,6 +1,6 @@
 # CoreML stable diffusion image generation example
 
-The example app to run text-to-image or image-to-image models from [Hugging Face](https://huggingface.co) to generate images
+The example app for running text-to-image or image-to-image models from [Hugging Face](https://huggingface.co) to generate images
 
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/app.png) 
 
