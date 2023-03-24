@@ -14,6 +14,19 @@
 		789E96CE29CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96CD29CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleTests.swift */; };
 		789E96D829CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96D729CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITests.swift */; };
 		789E96DA29CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96D929CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITestsLaunchTests.swift */; };
+		789E96E829CDC74A00E7C50A /* coreml-stable-diffusion-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 789E96E729CDC74A00E7C50A /* coreml-stable-diffusion-swift */; };
+		789E96F629CDC7CC00E7C50A /* IEventLoger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96EA29CDC7CC00E7C50A /* IEventLoger.swift */; };
+		789E96F729CDC7CC00E7C50A /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96EC29CDC7CC00E7C50A /* OutputView.swift */; };
+		789E96F829CDC7CC00E7C50A /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96ED29CDC7CC00E7C50A /* SideBar.swift */; };
+		789E96F929CDC7CC00E7C50A /* ToolBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96EE29CDC7CC00E7C50A /* ToolBarContent.swift */; };
+		789E96FA29CDC7CC00E7C50A /* LoggerTpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96EF29CDC7CC00E7C50A /* LoggerTpl.swift */; };
+		789E96FB29CDC7CC00E7C50A /* Prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96F129CDC7CC00E7C50A /* Prompts.swift */; };
+		789E96FC29CDC7CC00E7C50A /* InputImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96F229CDC7CC00E7C50A /* InputImageView.swift */; };
+		789E96FD29CDC7CC00E7C50A /* SlidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96F329CDC7CC00E7C50A /* SlidersView.swift */; };
+		789E96FE29CDC7CC00E7C50A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96F529CDC7CC00E7C50A /* ViewModel.swift */; };
+		789E970529CDC7D300E7C50A /* HelperTpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970029CDC7D300E7C50A /* HelperTpl.swift */; };
+		789E970629CDC7D300E7C50A /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970229CDC7D300E7C50A /* LogEvent.swift */; };
+		789E970729CDC7D300E7C50A /* LogEvenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970429CDC7D300E7C50A /* LogEvenType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,18 @@
 		789E96D329CDC71700E7C50A /* coreml-stable-diffusion-swift-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coreml-stable-diffusion-swift-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		789E96D729CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreml_stable_diffusion_swift_exampleUITests.swift; sourceTree = "<group>"; };
 		789E96D929CDC71700E7C50A /* coreml_stable_diffusion_swift_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreml_stable_diffusion_swift_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		789E96EA29CDC7CC00E7C50A /* IEventLoger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEventLoger.swift; sourceTree = "<group>"; };
+		789E96EC29CDC7CC00E7C50A /* OutputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
+		789E96ED29CDC7CC00E7C50A /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		789E96EE29CDC7CC00E7C50A /* ToolBarContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolBarContent.swift; sourceTree = "<group>"; };
+		789E96EF29CDC7CC00E7C50A /* LoggerTpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerTpl.swift; sourceTree = "<group>"; };
+		789E96F129CDC7CC00E7C50A /* Prompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prompts.swift; sourceTree = "<group>"; };
+		789E96F229CDC7CC00E7C50A /* InputImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputImageView.swift; sourceTree = "<group>"; };
+		789E96F329CDC7CC00E7C50A /* SlidersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidersView.swift; sourceTree = "<group>"; };
+		789E96F529CDC7CC00E7C50A /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		789E970029CDC7D300E7C50A /* HelperTpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperTpl.swift; sourceTree = "<group>"; };
+		789E970229CDC7D300E7C50A /* LogEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
+		789E970429CDC7D300E7C50A /* LogEvenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvenType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789E96E829CDC74A00E7C50A /* coreml-stable-diffusion-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +121,13 @@
 		789E96BA29CDC71600E7C50A /* coreml-stable-diffusion-swift-example */ = {
 			isa = PBXGroup;
 			children = (
+				789E970329CDC7D300E7C50A /* enum */,
+				789E96FF29CDC7D300E7C50A /* helper */,
+				789E970129CDC7D300E7C50A /* model */,
+				789E96F029CDC7CC00E7C50A /* controls */,
+				789E96E929CDC7CC00E7C50A /* protocol */,
+				789E96EB29CDC7CC00E7C50A /* view */,
+				789E96F429CDC7CC00E7C50A /* viewmodel */,
 				789E96BB29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift */,
 				789E96BD29CDC71600E7C50A /* ContentView.swift */,
 				789E96BF29CDC71700E7C50A /* Assets.xcassets */,
@@ -129,6 +162,67 @@
 			path = "coreml-stable-diffusion-swift-exampleUITests";
 			sourceTree = "<group>";
 		};
+		789E96E929CDC7CC00E7C50A /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				789E96EA29CDC7CC00E7C50A /* IEventLoger.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		789E96EB29CDC7CC00E7C50A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				789E96EC29CDC7CC00E7C50A /* OutputView.swift */,
+				789E96ED29CDC7CC00E7C50A /* SideBar.swift */,
+				789E96EE29CDC7CC00E7C50A /* ToolBarContent.swift */,
+				789E96EF29CDC7CC00E7C50A /* LoggerTpl.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		789E96F029CDC7CC00E7C50A /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				789E96F129CDC7CC00E7C50A /* Prompts.swift */,
+				789E96F229CDC7CC00E7C50A /* InputImageView.swift */,
+				789E96F329CDC7CC00E7C50A /* SlidersView.swift */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		789E96F429CDC7CC00E7C50A /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				789E96F529CDC7CC00E7C50A /* ViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		789E96FF29CDC7D300E7C50A /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				789E970029CDC7D300E7C50A /* HelperTpl.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		789E970129CDC7D300E7C50A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				789E970229CDC7D300E7C50A /* LogEvent.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		789E970329CDC7D300E7C50A /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				789E970429CDC7D300E7C50A /* LogEvenType.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +239,9 @@
 			dependencies = (
 			);
 			name = "coreml-stable-diffusion-swift-example";
+			packageProductDependencies = (
+				789E96E729CDC74A00E7C50A /* coreml-stable-diffusion-swift */,
+			);
 			productName = "coreml-stable-diffusion-swift-example";
 			productReference = 789E96B829CDC71600E7C50A /* coreml-stable-diffusion-swift-example.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +314,9 @@
 				Base,
 			);
 			mainGroup = 789E96AF29CDC71600E7C50A;
+			packageReferences = (
+				789E96E629CDC74A00E7C50A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */,
+			);
 			productRefGroup = 789E96B929CDC71600E7C50A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789E96FA29CDC7CC00E7C50A /* LoggerTpl.swift in Sources */,
+				789E96FD29CDC7CC00E7C50A /* SlidersView.swift in Sources */,
+				789E96F829CDC7CC00E7C50A /* SideBar.swift in Sources */,
+				789E970629CDC7D300E7C50A /* LogEvent.swift in Sources */,
+				789E96FE29CDC7CC00E7C50A /* ViewModel.swift in Sources */,
+				789E96F929CDC7CC00E7C50A /* ToolBarContent.swift in Sources */,
 				789E96BE29CDC71600E7C50A /* ContentView.swift in Sources */,
+				789E96F629CDC7CC00E7C50A /* IEventLoger.swift in Sources */,
+				789E96FB29CDC7CC00E7C50A /* Prompts.swift in Sources */,
 				789E96BC29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift in Sources */,
+				789E970729CDC7D300E7C50A /* LogEvenType.swift in Sources */,
+				789E96F729CDC7CC00E7C50A /* OutputView.swift in Sources */,
+				789E970529CDC7D300E7C50A /* HelperTpl.swift in Sources */,
+				789E96FC29CDC7CC00E7C50A /* InputImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		789E96E629CDC74A00E7C50A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Igor/coreml-stable-diffusion-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		789E96E729CDC74A00E7C50A /* coreml-stable-diffusion-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 789E96E629CDC74A00E7C50A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */;
+			productName = "coreml-stable-diffusion-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 789E96B029CDC71600E7C50A /* Project object */;
 }

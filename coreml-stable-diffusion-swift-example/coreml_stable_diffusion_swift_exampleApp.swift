@@ -6,12 +6,29 @@
 //
 
 import SwiftUI
+import coreml_stable_diffusion_swift
 
 @main
 struct coreml_stable_diffusion_swift_exampleApp: App {
+    
+    /// Main view model managing process of generating images
+    @StateObject var model = ViewModel(manager: GenerativeManager())
+    
+    /// The type of view representing the body of this view.
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear{
+                    initFolders()
+                }
+                .environmentObject(model)
+                .task {
+                    await model.loadModels()
+                }
         }
+    }
+    
+    private func initFolders(){
+        try? initFolder(name: "models")
     }
 }

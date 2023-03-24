@@ -1,26 +1,41 @@
 //
 //  ContentView.swift
-//  coreml-stable-diffusion-swift-example
+//  stable-diffusion-swift-example
 //
-//  Created by Igor on 24.03.2023.
+//  Created by Igor on 22.03.2023.
 //
 
 import SwiftUI
 
+
+@available(macOS 13.1, *)
 struct ContentView: View {
+    
+    // MARK: - Life circle
+    
+    /// The type of view representing the body of this view.
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationSplitView{
+                SideBar()
         }
-        .padding()
+        detail: {
+            HStack{
+                OutputView().frame(minWidth: 800)
+                LoggerTpl().frame(maxWidth: 302)
+            }
+        }
+        .navigationSplitViewStyle(.balanced)
+        .toolbar{
+            ToolbarItemGroup{
+                ToolBarContent()
+            }
+        }
+        .background(
+            Image("bg")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        )
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

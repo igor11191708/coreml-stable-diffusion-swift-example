@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "coreml-stable-diffusion-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/coreml-stable-diffusion-swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8c1e054cfd80c83c6615b9d2b9167d70509ad48f"
+      }
+    },
+    {
+      "identity" : "files",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/Files.git",
+      "state" : {
+        "revision" : "d273b5b7025d386feef79ef6bad7de762e106eaf",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "ml-stable-diffusion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/ml-stable-diffusion.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c4e9de73c9e723de264356f9563706ea9104212"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "fddd1c00396eed152c45a46bea9f47b98e59301d",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
