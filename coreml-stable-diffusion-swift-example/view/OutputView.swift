@@ -48,6 +48,7 @@ struct OutputView: View {
                     image
                         .resizable()
                         .scaledToFit()
+                        .padding()
                 }else if isRunning{
                     progressTpl("Generating image")
                 }else if isCanceling{
