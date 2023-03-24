@@ -53,21 +53,6 @@ struct ToolBarContent: View {
                     Text("Apple models")
                 }
             }
-
-            Button{
-                if let url = URL(string: "https://huggingface.co/coreml"){
-                    openURL(url)
-                }else{
-                    model.addToEventLog("URL error to huggingface.co/coreml", type: .error)
-                }
-            } label: {
-                HStack{
-                    Image(systemName: "square.grid.3x3.bottomleft.filled")
-                        .font(.system(size: 14))
-                        .foregroundColor(.brown)
-                    Text("CoreML models")
-                }
-            }
     }
 }
 
