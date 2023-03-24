@@ -4,6 +4,9 @@ The example app to run text-to-image or image-to-image models from [Hugging Face
 
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/app.png) 
 
+## Huggingface/swift-coreml-diffusers
+[Swift app demonstrating Core ML Stable Diffusion](https://github.com/huggingface/swift-coreml-diffusers)
+
 ## How to run the example app
 
 ### 1. Download a prepared *split einsum* model from Hugging Face Hub.
