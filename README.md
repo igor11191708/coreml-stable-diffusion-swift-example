@@ -46,3 +46,4 @@ Take a look on [the video demonstration](https://youtu.be/oaaJums6f8c)
 - You need to have Xcode 13 installed in order to have access to Documentation Compiler (DocC)
 - Go to Product > Build Documentation or **⌃⇧⌘ D**
 
+Disclaimer : It's not official Hugging Face app for running text-to-image or image-to-image models from [Hugging Face](https://huggingface.co) to generate images
