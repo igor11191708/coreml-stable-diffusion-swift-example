@@ -49,7 +49,7 @@ struct OutputView: View {
                 progressTpl("Canceling generation")
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .frame(minWidth: 640, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
         .overlay(cleanTpl, alignment: .bottomTrailing)
         .overlay(shareTpl, alignment: .topTrailing)
     }

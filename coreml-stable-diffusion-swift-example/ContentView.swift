@@ -19,8 +19,9 @@ struct ContentView: View {
                 SideBar()
         }
         detail: {
-            HStack{
-                OutputView().frame(minWidth: 800)
+            HStack(spacing: 0){
+                OutputView().frame(maxWidth: .infinity, maxHeight: .infinity)
+                Divider()
                 LoggerTpl().frame(maxWidth: 302)
             }
         }
