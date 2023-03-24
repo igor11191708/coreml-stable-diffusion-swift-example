@@ -27,12 +27,20 @@ struct LoggerTpl: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(10)
-                .background(Capsule().stroke(color, lineWidth: 0.5))
+                .background(bgTpl(color))
             }
             .scrollContentBackground(.hidden)
             ZStack{
                 cleanTpl
             }.frame(maxWidth: .infinity, alignment: .trailing)
+        }
+    }
+    
+    @ViewBuilder
+    private func bgTpl(_ color : Color) -> some View{
+        ZStack{
+            Capsule().fill(.gray.opacity(0.25))
+            Capsule().stroke(color, lineWidth: 0.5)
         }
     }
     

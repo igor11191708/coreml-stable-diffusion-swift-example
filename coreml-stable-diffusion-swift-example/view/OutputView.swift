@@ -46,6 +46,8 @@ struct OutputView: View {
                     .opacity(bgOpacity)
                 if let image = model.outputImage{
                     image
+                        .resizable()
+                        .scaledToFit()
                 }else if isRunning{
                     progressTpl("Generating image")
                 }else if isCanceling{
