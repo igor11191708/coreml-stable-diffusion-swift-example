@@ -18,10 +18,6 @@ The example app supports **split-einsum** models. I decided to support in the ex
 
 To get positive result from the app example use only *split einsum* type of models.
 
-#### PyTorch to CoreML
-if you want to prepare model bundle on your own take a look on this tutorial
-[Stable Diffusion on Apple Silicon](https://www.youtube.com/watch?v=uY_Ty-F0CG8&list=LL&index=2)
-
 ### 2. Put the models to the working model directory
 Click the button **Local models** and move there downloaded models
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/local_button.png)   
