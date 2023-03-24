@@ -27,6 +27,7 @@
 		789E970529CDC7D300E7C50A /* HelperTpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970029CDC7D300E7C50A /* HelperTpl.swift */; };
 		789E970629CDC7D300E7C50A /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970229CDC7D300E7C50A /* LogEvent.swift */; };
 		789E970729CDC7D300E7C50A /* LogEvenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970429CDC7D300E7C50A /* LogEvenType.swift */; };
+		789E970929CDC98700E7C50A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 789E970829CDC98600E7C50A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		789E970029CDC7D300E7C50A /* HelperTpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperTpl.swift; sourceTree = "<group>"; };
 		789E970229CDC7D300E7C50A /* LogEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
 		789E970429CDC7D300E7C50A /* LogEvenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvenType.swift; sourceTree = "<group>"; };
+		789E970829CDC98600E7C50A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		789E96AF29CDC71600E7C50A = {
 			isa = PBXGroup;
 			children = (
+				789E970829CDC98600E7C50A /* README.md */,
 				789E96BA29CDC71600E7C50A /* coreml-stable-diffusion-swift-example */,
 				789E96CC29CDC71700E7C50A /* coreml-stable-diffusion-swift-exampleTests */,
 				789E96D629CDC71700E7C50A /* coreml-stable-diffusion-swift-exampleUITests */,
@@ -333,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789E970929CDC98700E7C50A /* README.md in Resources */,
 				789E96C329CDC71700E7C50A /* Preview Assets.xcassets in Resources */,
 				789E96C029CDC71700E7C50A /* Assets.xcassets in Resources */,
 			);
