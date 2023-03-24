@@ -55,7 +55,7 @@ struct OutputView: View {
             Spacer()
             cleanTpl
         }
-        .frame(minWidth: 640, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
+        .frame(minWidth: 302, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
     }
     
     // MARK: - Private

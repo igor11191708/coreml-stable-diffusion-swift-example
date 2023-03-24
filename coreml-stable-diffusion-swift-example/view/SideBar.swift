@@ -25,22 +25,30 @@ struct SideBar: View{
     
     /// The type of view representing the body of this view.
     var body: some View{
-       ScrollView{
-           VStack(alignment: .leading, spacing: 10){
-               headerTpl
-               Divider()
-               Group{
-                   modelsPickerTpl
-                   schedulerPickerTpl
-                   Prompts()
-                   SlidersView()
-               }
-               .font(.system(size: 12, weight: .regular))
-               InputImageView()
-               Divider()
-               generateTpl
-               cancelGenerateTpl
-           }.padding(.horizontal, 10)
+        VStack{
+            ScrollView{
+                VStack(alignment: .leading, spacing: 10){
+                    headerTpl
+                    Divider()
+                    Group{
+                        modelsPickerTpl
+                        schedulerPickerTpl
+                        Prompts()
+                    }
+                    .font(.system(size: 12, weight: .regular))
+                    InputImageView()
+                    Group{
+                        SlidersView()
+                    }
+                    .font(.system(size: 12, weight: .regular)) 
+                }.padding(.leading, 10)
+                    .padding(.trailing, 15)
+            }
+            Divider()
+            VStack{
+                generateTpl
+                cancelGenerateTpl
+            }.padding()
         }
        .navigationTitle("Models")
        .navigationSplitViewColumnWidth(min: 300, ideal: 350, max: 600)
