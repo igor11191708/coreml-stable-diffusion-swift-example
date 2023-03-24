@@ -16,7 +16,7 @@ or follow the links
 
 The example app supports **split-einsum** models. I decided to support in the example app only this type of models because they are the fastest in terms of image generation more to read is here [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
 
-To get positive result from the app example download only this type of models.
+To get positive result from the app example use only *split einsum* type of models.
 
 #### PyTorch to CoreML
 if you want to prepare model bundle on your own take a look on this tutorial
@@ -40,4 +40,4 @@ Take a look on [the video demonstration](https://youtu.be/oaaJums6f8c)
 - You need to have Xcode 13 installed in order to have access to Documentation Compiler (DocC)
 - Go to Product > Build Documentation or **⌃⇧⌘ D**
 
-Disclaimer : It's not official Hugging Face app for running text-to-image or image-to-image models from [Hugging Face](https://huggingface.co) to generate images. 
+Disclaimer : It's not official Hugging Face package for running text-to-image or image-to-image models from [Hugging Face](https://huggingface.co) to generate images. By launching and downloading models from Hugging Face, you take responsibility for yourself. I have no relationship with the model developers on Hugging Face.
