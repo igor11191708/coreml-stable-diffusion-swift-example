@@ -4,7 +4,7 @@ The example app to run text-to-image or image-to-image models from [Hugging Face
 
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/app.png) 
 
-## Huggingface/swift-coreml-diffusers
+## Official Huggingface/swift-coreml-diffusers
 [Swift app demonstrating Core ML Stable Diffusion](https://github.com/huggingface/swift-coreml-diffusers)
 
 ## How to run the example app
@@ -12,6 +12,7 @@ The example app to run text-to-image or image-to-image models from [Hugging Face
 ### 1. Download a prepared *split einsum* model from Hugging Face Hub.
 
 - [Apple models](https://huggingface.co/apple) 
+- [pcuenq/coreml-stable-diffusion-2-base](https://huggingface.co/pcuenq/coreml-stable-diffusion-2-base/tree/main) 
 
 The example app supports **split-einsum** models. I decided to support in the example app only this type of models because they are the fastest in terms of image generation more to read is here [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
 
