@@ -81,6 +81,10 @@ struct SideBar: View{
         model.progress == .running
     }
     
+    private var isCanceling : Bool{
+        model.progress == .canceling
+    }
+    
     /// Start task
     private func startTask(){
         task = Task{
@@ -108,7 +112,7 @@ struct SideBar: View{
                 .frame(maxWidth: .infinity)
         }
         .buttonStyle(.borderedProminent)
-        .disabled(isNotValid || isRunning)
+        .disabled(isNotValid || isRunning || isCanceling)
     }
     
     @ViewBuilder

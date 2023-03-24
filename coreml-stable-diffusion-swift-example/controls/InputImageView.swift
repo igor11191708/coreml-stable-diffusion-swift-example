@@ -27,8 +27,11 @@ struct InputImageView: View {
         VStack(alignment: .center, spacing: 25){
             Rectangle().stroke(Color.gray, lineWidth: 0.5)
                 .overlay(imageTpl)
-                .overlay(cleanTpl, alignment: .bottomTrailing)
                 .frame(height: 128)
+            HStack{
+                Spacer()
+                cleanTpl
+            }
             PhotosPicker(
                 selection: $selectedItem,
                 matching: .images

@@ -16,6 +16,7 @@ struct LoggerTpl: View {
     
     /// The type of view representing the body of this view.
     var body: some View {
+        VStack(alignment: .leading){
             List(model.logEvents, id : \.self){ item in
                 let color = item.type.color
                 let image = item.type.imageTpl
@@ -28,8 +29,11 @@ struct LoggerTpl: View {
                 .padding(10)
                 .background(Capsule().stroke(color, lineWidth: 0.5))
             }
-            .overlay(cleanTpl, alignment: .bottomTrailing)
             .scrollContentBackground(.hidden)
+            ZStack{
+                cleanTpl
+            }.frame(maxWidth: .infinity, alignment: .trailing)
+        }
     }
     
     /// Remove result image

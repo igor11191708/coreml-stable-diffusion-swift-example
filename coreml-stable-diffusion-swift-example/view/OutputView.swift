@@ -36,22 +36,26 @@ struct OutputView: View {
     
     /// The type of view representing the body of this view.
     var body: some View {
-        ZStack{
-            emptyTpl
-                .offset(y: offsetForEmpty)
-                .animation(.spring(), value: model.outputImage)
-                .opacity(bgOpacity)
-            if let image = model.outputImage{
-                image
-            }else if isRunning{
-                progressTpl("Generating image")
-            }else if isCanceling{
-                progressTpl("Canceling generation")
+        VStack(alignment: .trailing){
+            shareTpl
+            Spacer()
+            ZStack{
+                emptyTpl
+                    .offset(y: offsetForEmpty)
+                    .animation(.spring(), value: model.outputImage)
+                    .opacity(bgOpacity)
+                if let image = model.outputImage{
+                    image
+                }else if isRunning{
+                    progressTpl("Generating image")
+                }else if isCanceling{
+                    progressTpl("Canceling generation")
+                }
             }
+            Spacer()
+            cleanTpl
         }
         .frame(minWidth: 640, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
-        .overlay(cleanTpl, alignment: .bottomTrailing)
-        .overlay(shareTpl, alignment: .topTrailing)
     }
     
     // MARK: - Private
