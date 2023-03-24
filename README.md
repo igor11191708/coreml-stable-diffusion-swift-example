@@ -24,7 +24,7 @@ To get positive result from the app example download only this type of models.
 - [coreml/coreml-epic-diffusion](https://huggingface.co/coreml/coreml-epic-diffusion/tree/main/split_einsum)
 - [coreml/coreml-Analog-Diffusion](https://huggingface.co/coreml/coreml-Analog-Diffusion/tree/main/split-einsum)
 
-#### Pytorch to CoreML
+#### PyTorch to CoreML
 if you want to prepare model bundle on your own take a look on this tutorial
 [Stable Diffusion on Apple Silicon](https://www.youtube.com/watch?v=uY_Ty-F0CG8&list=LL&index=2)
 
@@ -34,7 +34,7 @@ Click the button **Local models** and move there downloaded models
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/local_models_folder.png) 
 
 ### 3. Run the app example
-Take a look on [the video demonstration](https://youtu.be/GYC8VveChHI)
+Take a look on [the video demonstration](https://youtu.be/oaaJums6f8c)
 
   ![Http requests](https://github.com/The-Igor/coreml-stable-diffusion-swift/blob/main/Sources/img/coreml_stable_diffusion_video.gif) 
 
