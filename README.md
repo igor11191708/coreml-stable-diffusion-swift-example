@@ -17,12 +17,6 @@ or follow the links
 The example app supports **split-einsum** models. I decided to support in the example app only this type of models because they are the fastest in terms of image generation more to read is here [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
 
 To get positive result from the app example download only this type of models.
-#### Text-to-Image models
-- [coreml/coreml-stable-diffusion-v1-5](https://huggingface.co/coreml/coreml-stable-diffusion-v1-5/tree/main/split-einsum) 
-- [coreml/coreml-vintedois-diffusion](https://huggingface.co/coreml/coreml-vintedois-diffusion/tree/main/split_einsum)
-#### Image-to-Image models
-- [coreml/coreml-epic-diffusion](https://huggingface.co/coreml/coreml-epic-diffusion/tree/main/split_einsum)
-- [coreml/coreml-Analog-Diffusion](https://huggingface.co/coreml/coreml-Analog-Diffusion/tree/main/split-einsum)
 
 #### PyTorch to CoreML
 if you want to prepare model bundle on your own take a look on this tutorial
