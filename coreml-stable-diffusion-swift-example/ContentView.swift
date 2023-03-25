@@ -31,11 +31,6 @@ struct ContentView: View {
                 ToolBarContent()
             }
         }
-        .background(
-            Image("bg")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-        )
     }
 }
 
