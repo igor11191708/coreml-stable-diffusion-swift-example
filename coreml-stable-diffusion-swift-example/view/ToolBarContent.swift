@@ -38,21 +38,6 @@ struct ToolBarContent: View {
             HStack {
                 Divider()
             }
-
-            Button{
-                if let url = URL(string: "https://huggingface.co/apple"){
-                    openURL(url)
-                }else{
-                    model.addToEventLog("URL error to huggingface.co/apple", type: .error)
-                }
-            } label: {
-                HStack{
-                    Image(systemName: "apple.logo")
-                        .font(.system(size: 14))
-                        .foregroundColor(.brown)
-                    Text("Apple models")
-                }
-            }
     }
 }
 
