@@ -28,6 +28,8 @@
 		789E970629CDC7D300E7C50A /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970229CDC7D300E7C50A /* LogEvent.swift */; };
 		789E970729CDC7D300E7C50A /* LogEvenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E970429CDC7D300E7C50A /* LogEvenType.swift */; };
 		789E970929CDC98700E7C50A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 789E970829CDC98600E7C50A /* README.md */; };
+		78EEEE6929DDBB2B00EDF91F /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EEEE6829DDBB2B00EDF91F /* img_01.png */; };
+		78EEEE6B29DDBB4600EDF91F /* img_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EEEE6A29DDBB4600EDF91F /* img_02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		789E970229CDC7D300E7C50A /* LogEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
 		789E970429CDC7D300E7C50A /* LogEvenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvenType.swift; sourceTree = "<group>"; };
 		789E970829CDC98600E7C50A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78EEEE6829DDBB2B00EDF91F /* img_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_01.png; sourceTree = "<group>"; };
+		78EEEE6A29DDBB4600EDF91F /* img_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		789E96AF29CDC71600E7C50A = {
 			isa = PBXGroup;
 			children = (
+				78EEEE6729DDBB1100EDF91F /* img */,
 				789E970829CDC98600E7C50A /* README.md */,
 				789E96BA29CDC71600E7C50A /* coreml-stable-diffusion-swift-example */,
 				789E96CC29CDC71700E7C50A /* coreml-stable-diffusion-swift-exampleTests */,
@@ -226,6 +231,15 @@
 			path = enum;
 			sourceTree = "<group>";
 		};
+		78EEEE6729DDBB1100EDF91F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				78EEEE6829DDBB2B00EDF91F /* img_01.png */,
+				78EEEE6A29DDBB4600EDF91F /* img_02.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,7 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				789E970929CDC98700E7C50A /* README.md in Resources */,
+				78EEEE6B29DDBB4600EDF91F /* img_02.png in Resources */,
 				789E96C329CDC71700E7C50A /* Preview Assets.xcassets in Resources */,
+				78EEEE6929DDBB2B00EDF91F /* img_01.png in Resources */,
 				789E96C029CDC71700E7C50A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
