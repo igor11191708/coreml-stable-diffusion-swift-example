@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780F590929FBDDD000CED862 /* coreml-stable-diffusion-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 780F590829FBDDD000CED862 /* coreml-stable-diffusion-swift */; };
 		789E96BC29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96BB29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift */; };
 		789E96BE29CDC71600E7C50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96BD29CDC71600E7C50A /* ContentView.swift */; };
 		789E96C029CDC71700E7C50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789E96BF29CDC71700E7C50A /* Assets.xcassets */; };
@@ -29,7 +30,6 @@
 		789E970929CDC98700E7C50A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 789E970829CDC98600E7C50A /* README.md */; };
 		78EEEE6929DDBB2B00EDF91F /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EEEE6829DDBB2B00EDF91F /* img_01.png */; };
 		78EEEE6F29DDCAA700EDF91F /* img_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EEEE6E29DDCAA700EDF91F /* img_03.png */; };
-		78FCA61529FBD62500F9A891 /* coreml-stable-diffusion-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 78FCA61429FBD62500F9A891 /* coreml-stable-diffusion-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,6 @@
 		789E970829CDC98600E7C50A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78EEEE6829DDBB2B00EDF91F /* img_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_01.png; sourceTree = "<group>"; };
 		78EEEE6E29DDCAA700EDF91F /* img_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_03.png; sourceTree = "<group>"; };
-		78FCA61329FBD5E800F9A891 /* coreml-stable-diffusion-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "coreml-stable-diffusion-swift"; path = "../coreml-stable-diffusion-swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FCA61529FBD62500F9A891 /* coreml-stable-diffusion-swift in Frameworks */,
+				780F590929FBDDD000CED862 /* coreml-stable-diffusion-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +114,6 @@
 		789E96AF29CDC71600E7C50A = {
 			isa = PBXGroup;
 			children = (
-				78FCA61229FBD5E800F9A891 /* Packages */,
 				78EEEE6729DDBB1100EDF91F /* img */,
 				789E970829CDC98600E7C50A /* README.md */,
 				789E96BA29CDC71600E7C50A /* coreml-stable-diffusion-swift-example */,
@@ -250,14 +248,6 @@
 			path = img;
 			sourceTree = "<group>";
 		};
-		78FCA61229FBD5E800F9A891 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				78FCA61329FBD5E800F9A891 /* coreml-stable-diffusion-swift */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,7 +265,7 @@
 			);
 			name = "coreml-stable-diffusion-swift-example";
 			packageProductDependencies = (
-				78FCA61429FBD62500F9A891 /* coreml-stable-diffusion-swift */,
+				780F590829FBDDD000CED862 /* coreml-stable-diffusion-swift */,
 			);
 			productName = "coreml-stable-diffusion-swift-example";
 			productReference = 789E96B829CDC71600E7C50A /* coreml-stable-diffusion-swift-example.app */;
@@ -350,6 +340,7 @@
 			);
 			mainGroup = 789E96AF29CDC71600E7C50A;
 			packageReferences = (
+				780F590729FBDDD000CED862 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */,
 			);
 			productRefGroup = 789E96B929CDC71600E7C50A /* Products */;
 			projectDirPath = "";
@@ -742,9 +733,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		780F590729FBDDD000CED862 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Igor/coreml-stable-diffusion-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		78FCA61429FBD62500F9A891 /* coreml-stable-diffusion-swift */ = {
+		780F590829FBDDD000CED862 /* coreml-stable-diffusion-swift */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 780F590729FBDDD000CED862 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */;
 			productName = "coreml-stable-diffusion-swift";
 		};
 /* End XCSwiftPackageProductDependency section */

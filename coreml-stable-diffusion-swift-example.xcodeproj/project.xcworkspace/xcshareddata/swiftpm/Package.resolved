@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "coreml-stable-diffusion-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/coreml-stable-diffusion-swift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "70bbc8fc66fdd43ebd3f5fbe2933acab8908b85a"
+      }
+    },
+    {
       "identity" : "files",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JohnSundell/Files.git",
