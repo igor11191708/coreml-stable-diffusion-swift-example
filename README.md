@@ -7,6 +7,8 @@ The example app for running text-to-image or image-to-image models to generate i
 [CoreML stable diffusion image generation](https://github.com/The-Igor/coreml-stable-diffusion-swift)
 
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_01.png)
+ 
+ ## How to use
   
 1. Put at least one your model bundle into the local model folder
 2. Pick up a model from the list. Click update button if you added a model while app was launched
