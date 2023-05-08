@@ -10,8 +10,8 @@ The example app for running text-to-image or image-to-image models to generate i
  
  ## How to use
   
-1. Put at least one your model bundle into the local model folder
-2. Pick up a model from the list. Click update button if you added a model while app was launched
+1. Put at least one of your model bundle into the local model folder
+2. Pick up the model that was placed at the local folder from the list. Click update button if you added a model while app was launched
 3. Enter a prompt or pick up a picture and press "Generate"
 
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
