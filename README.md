@@ -10,9 +10,9 @@ The example app for running text-to-image or image-to-image models to generate i
  
  ## How to use
   
-1. Put at least one of your model bundle into the local model folder
+1. Put at least one of your prepared split_einsum model into the local model folder (The example app supports only split_einsum models. In terms of performance split_einsum is the fastest way to get result)
 2. Pick up the model that was placed at the local folder from the list. Click update button if you added a model while app was launched
-3. Enter a prompt or pick up a picture and press "Generate"
+3. Enter a prompt or pick up a picture and press "Generate" (You don't need to prepare image size manually)
 
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
