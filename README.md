@@ -22,3 +22,7 @@ The example app for running text-to-image or image-to-image models to generate i
 - Go to Product > Build Documentation or **⌃⇧⌘ D**
 
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_01.png)
+
+
+## Case study
+[Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
