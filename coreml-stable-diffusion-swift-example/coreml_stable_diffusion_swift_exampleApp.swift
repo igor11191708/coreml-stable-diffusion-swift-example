@@ -29,6 +29,7 @@ struct coreml_stable_diffusion_swift_exampleApp: App {
     }
     
     private func initFolders(){
+        // TODO: Add try/catch Inform user that there's difficulty while initializing the folder for models
         try? initFolder(name: "models")
     }
 }
