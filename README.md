@@ -16,6 +16,10 @@ The example app for running text-to-image or image-to-image models to generate i
 
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
+## Model set example
+[coreml-stable-diffusion-2-base](https://huggingface.co/pcuenq/coreml-stable-diffusion-2-base/blob/main/coreml-stable-diffusion-2-base_split_einsum_compiled.zip )
+
+
 ## Documentation(API)
 - You need to have Xcode 13 installed in order to have access to Documentation Compiler (DocC)
 
@@ -26,3 +30,5 @@ The example app for running text-to-image or image-to-image models to generate i
 
 ## Case study
 [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
+
+
