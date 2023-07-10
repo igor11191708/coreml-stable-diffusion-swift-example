@@ -112,7 +112,9 @@ struct SideBar: View{
     @ViewBuilder
     private var generateTpl : some View{
         Button{
-            cancelTask()
+            if let task, !task.isCancelled{
+                cancelTask()
+            }
             startTask()
         }
         label: {

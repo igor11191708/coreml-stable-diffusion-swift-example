@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "03611134-B9DD-493E-A34C-4EB8651D14C3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79A694F3-5976-4B6C-BCA1-69447AC181DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "coreml-stable-diffusion-swift-example/viewmodel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "generate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79A694F3-5976-4B6C-BCA1-69447AC181DF - b62bcef4dbd8e4e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for coreml_stable_diffusion_swift_example.ViewModel.generate() async -&gt; ()"
+                  moduleName = "coreml-stable-diffusion-swift-example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igor/Documents/GitHub/coreml-stable-diffusion-swift-example/coreml-stable-diffusion-swift-example/viewmodel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "79A694F3-5976-4B6C-BCA1-69447AC181DF - 4e9d9c21d283a0e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for coreml_stable_diffusion_swift_example.ViewModel.generate() async -&gt; ()"
+                  moduleName = "coreml-stable-diffusion-swift-example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igor/Documents/GitHub/coreml-stable-diffusion-swift-example/coreml-stable-diffusion-swift-example/viewmodel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "79A694F3-5976-4B6C-BCA1-69447AC181DF - 1b348af8a917c2e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for coreml_stable_diffusion_swift_example.ViewModel.generate() async -&gt; ()"
+                  moduleName = "coreml-stable-diffusion-swift-example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/igor/Documents/GitHub/coreml-stable-diffusion-swift-example/coreml-stable-diffusion-swift-example/viewmodel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
