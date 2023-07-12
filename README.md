@@ -14,6 +14,10 @@ The example app for running text-to-image or image-to-image models to generate i
 2. Pick up the model that was placed at the local folder from the list. Click update button if you added a model while app was launched
 3. Enter a prompt or pick up a picture and press "Generate" (You don't need to prepare image size manually) It might take up to a minute or two to get the result
 
+### Performance
+
+ The speed can be unpredictable. Sometimes a model will suddenly run a lot slower than before. It appears as if Core ML is trying to be smart in how it schedules things, but doesn’t always optimal.
+
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
 ## Model set example
