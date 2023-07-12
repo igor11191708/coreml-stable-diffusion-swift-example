@@ -4,7 +4,7 @@ The example app for running text-to-image or image-to-image models to generate i
 
 ### Performance
 
- The speed can be unpredictable. Sometimes a model will suddenly run a lot slower than before. It appears as if Core ML is trying to be smart in how it schedules things, but doesn’t always optimal.
+ The speed can be unpredictable. Sometimes a model will suddenly run a lot slower than before. It appears as if Core ML is trying to be smart in how to schedule things, but doesn’t always optimal.
 
 ## SwiftUI example for the package
 
