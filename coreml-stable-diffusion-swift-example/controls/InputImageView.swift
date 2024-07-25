@@ -86,15 +86,15 @@ struct InputImageView: View {
         }
     }
     
+    @MainActor
     private func onChange() -> Task<(), Never>{
        Task {
             if let data = try? await selectedItem?.loadTransferable(type: Data.self) {
                 let toSize : NSSize = .init(width: 256, height: 256)
                 let nsImage = await getNSImage(from : data, cropped: toSize)
-                
-                await MainActor.run{
-                    update(image: nsImage)
-                }
+          
+                update(image: nsImage)
+               
             }
         }
     }
