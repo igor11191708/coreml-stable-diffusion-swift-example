@@ -1,4 +1,5 @@
 {
+  "originHash" : "c8423ba47bc4176700c6c60eacd4f8ce2c24110328711b11d89f97ab2a6b0c9e",
   "pins" : [
     {
       "identity" : "coreml-stable-diffusion-swift",
@@ -6,7 +7,7 @@
       "location" : "https://github.com/The-Igor/coreml-stable-diffusion-swift.git",
       "state" : {
         "branch" : "main",
-        "revision" : "6465630812acd10fbc4967243e1523f5c22b36de"
+        "revision" : "bd9700efbce5a190cf4bfe5cd2ab1f989d21e8b0"
       }
     },
     {
@@ -37,5 +38,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
