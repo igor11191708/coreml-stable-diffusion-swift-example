@@ -46,7 +46,7 @@ extension IEventLoger{
     /// - Parameter value: Error
     func logError(_ value : Error){
         
-        if let e = value as? StableDiffusionPipeline.Error, e == .startingImageProvidedWithoutEncoder{
+        if let e = value as? PipelineError, e == .startingImageProvidedWithoutEncoder{
             addToEventLog("The selected model does not support an input image", type: .error)
             addToEventLog("Clean up input image and type in only PROMPT", type: .warning)
         }else if let e = value as? Encoder.Error, e == .sampleInputShapeNotCorrect {
