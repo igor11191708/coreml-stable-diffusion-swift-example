@@ -116,7 +116,7 @@ final class ViewModel: ObservableObject, IEventLoger{
         }
         
         guard let pipeline = try? getDiffusionPipeline(
-            for: url, disableSafety, reduceMemory, .cpuAndGPU
+            for: url, disableSafety, reduceMemory
         )else{
             return
         }
