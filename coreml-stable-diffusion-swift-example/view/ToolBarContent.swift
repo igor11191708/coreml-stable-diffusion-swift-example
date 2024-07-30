@@ -29,10 +29,10 @@ struct ToolBarContent: View {
             } label: {
                 HStack{
                     Image(systemName: "circle.hexagonpath.fill")
-                        .font(.system(size: 14))
-                        .foregroundColor(.brown)
+                        .font(.title)
                     Text("Local models")
-                }
+                      
+                }.foregroundColor(.green)
             }
     
             HStack {
