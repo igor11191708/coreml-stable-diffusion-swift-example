@@ -94,8 +94,9 @@ struct InputImageView: View {
                 let nsImage = await getNSImage(from : data, cropped: toSize)
           
                 update(image: nsImage)
-               
             }
         }
     }
 }
+
+extension NSImage: @unchecked Sendable {}
