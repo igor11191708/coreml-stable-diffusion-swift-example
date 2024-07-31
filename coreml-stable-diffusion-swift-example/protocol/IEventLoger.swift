@@ -50,9 +50,9 @@ extension IEventLoger{
             addToEventLog("The selected model does not support an input image", type: .error)
             addToEventLog("Clean up input image and type in only PROMPT", type: .warning)
         }else if let e = value as? Encoder.Error, e == .sampleInputShapeNotCorrect {
-            addToEventLog("The image size doesn't match the required size 512x512", type: .error)
+            addToEventLog("The sample input shape not correct", type: .error)
         }else{
-            addToEventLog("Unknown error", type: .error)
+            addToEventLog("Unknown error \(value.localizedDescription)", type: .error)
         }
     }
     

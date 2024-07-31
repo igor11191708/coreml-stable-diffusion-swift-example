@@ -18,13 +18,16 @@ struct InputImageView: View {
     
     @State private var image : Image? = nil
     
+    @State private var imageSize : CGSize? = nil
+    
     @State private var task : Task<(), Never>?
     
     // MARK: - Life circle
     
     /// The type of view representing the body of this view.
     var body: some View {
-        VStack(alignment: .center, spacing: 25){
+        VStack(alignment: .center, spacing: 5){
+            textTpl(for: imageSize)
             Rectangle().stroke(Color.gray, lineWidth: 0.5)
                     .overlay(imageTpl)
                     .overlay(cleanTpl, alignment: .bottomTrailing)
@@ -45,6 +48,20 @@ struct InputImageView: View {
     }
     
     // MARK: - Private
+    
+    @ViewBuilder
+    private func textTpl(for size: CGSize?) -> some View {
+        if let size{
+            let roundedWidth = size.width.rounded()
+            let roundedHeight = size.height.rounded()
+            Rectangle().opacity(0.1).frame(height: 25)
+                .overlay{
+                    Text("Width: \(Int(roundedWidth)), Height: \(Int(roundedHeight))")
+                }
+        }else{
+            Rectangle().opacity(0.1).frame(height: 25)
+        }
+    }
     
     @ViewBuilder
     private var cleanTpl : some View{
@@ -78,6 +95,7 @@ struct InputImageView: View {
     @MainActor
     private func update( image : NSImage?){
         if let nsImage = image{
+            imageSize = nsImage.size
             model.outputImage = nil
             model.inputImage = nsImage.CGImage
             self.image = Image(nsImage: nsImage)
@@ -90,9 +108,7 @@ struct InputImageView: View {
     private func onChange() -> Task<(), Never>{
        Task {
             if let data = try? await selectedItem?.loadTransferable(type: Data.self) {
-                let toSize : NSSize = .init(width: 256, height: 256)
-                let nsImage = await getNSImage(from : data, cropped: toSize)
-          
+                let nsImage = await getNSImage(from : data)
                 update(image: nsImage)
             }
         }

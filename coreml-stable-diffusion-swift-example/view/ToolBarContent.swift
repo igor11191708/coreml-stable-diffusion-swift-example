@@ -34,6 +34,7 @@ struct ToolBarContent: View {
                       
                 }.foregroundColor(.green)
             }
+            .help("Models are expected in Document -> models folder")
     
             HStack {
                 Divider()
