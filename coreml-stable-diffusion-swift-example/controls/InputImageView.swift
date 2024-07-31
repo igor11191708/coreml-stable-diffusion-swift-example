@@ -68,6 +68,7 @@ struct InputImageView: View {
         Button{
             model.inputImage = nil
             image = nil
+            imageSize = nil
         }label: {
             Image(systemName: "x.circle")
                 .font(.system(size: 14))
