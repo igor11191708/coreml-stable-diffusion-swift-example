@@ -24,11 +24,7 @@ The example app supports only ``split_einsum`` models. In terms of performance `
 | `SafetyChecker.mlmodelc`             | Ensures generated content adheres to safety guidelines by checking against predefined criteria. |
 | `vocab.json`                         | Contains the vocabulary used by the text encoder for tokenization and encoding processes. |
 | `merges.txt`                         | Stores the merging rules for byte-pair encoding used in the text encoder. |
-| `ControlledUnet.mlmodelc`            | Modified U-Net model incorporating control mechanisms from the ControlNet to steer output characteristics. |
-| `ControlledUnetChunk1.mlmodelc`      | First part of the controlled U-Net model designed for sequential or partitioned processing. |
-| `ControlledUnetChunk2.mlmodelc`      | Second part of the controlled U-Net model completing the image synthesis process started by the first chunk. |
-| `controlnet/`                        | Directory containing various ControlNet models for different control scenarios. |
-| `MultilingualTextEncoderProjection.mlmodelc` | Specialized model for projecting multilingual text into a consistent vector space, supporting diverse language inputs. |
+
 
 ## Model set example
 [coreml-stable-diffusion-2-base](https://huggingface.co/pcuenq/coreml-stable-diffusion-2-base/blob/main/coreml-stable-diffusion-2-base_split_einsum_compiled.zip )
