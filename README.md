@@ -13,6 +13,23 @@ The example app supports only ``split_einsum`` models. In terms of performance `
 
 ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
+| File Name                            | Description                                                      |
+|--------------------------------------|------------------------------------------------------------------|
+| `TextEncoder.mlmodelc`               | Encodes input text into a vector space for further processing.   |
+| `Unet.mlmodelc`                      | Core model handling the transformation of encoded vectors into intermediate image representations. |
+| `UnetChunk1.mlmodelc`                | First segment of a segmented U-Net model for optimized processing in environments with memory constraints. |
+| `UnetChunk2.mlmodelc`                | Second segment of the segmented U-Net model, completing the tasks started by the first chunk. |
+| `VAEDecoder.mlmodelc`                | Decodes the latent representations into final image outputs.     |
+| `VAEEncoder.mlmodelc`                | Compresses input image data into a latent space for reconstruction or further processing. |
+| `SafetyChecker.mlmodelc`             | Ensures generated content adheres to safety guidelines by checking against predefined criteria. |
+| `vocab.json`                         | Contains the vocabulary used by the text encoder for tokenization and encoding processes. |
+| `merges.txt`                         | Stores the merging rules for byte-pair encoding used in the text encoder. |
+| `ControlledUnet.mlmodelc`            | Modified U-Net model incorporating control mechanisms from the ControlNet to steer output characteristics. |
+| `ControlledUnetChunk1.mlmodelc`      | First part of the controlled U-Net model designed for sequential or partitioned processing. |
+| `ControlledUnetChunk2.mlmodelc`      | Second part of the controlled U-Net model completing the image synthesis process started by the first chunk. |
+| `controlnet/`                        | Directory containing various ControlNet models for different control scenarios. |
+| `MultilingualTextEncoderProjection.mlmodelc` | Specialized model for projecting multilingual text into a consistent vector space, supporting diverse language inputs. |
+
 ## Model set example
 [coreml-stable-diffusion-2-base](https://huggingface.co/pcuenq/coreml-stable-diffusion-2-base/blob/main/coreml-stable-diffusion-2-base_split_einsum_compiled.zip )
 
@@ -20,9 +37,9 @@ The example app supports only ``split_einsum`` models. In terms of performance `
 
  The speed can be unpredictable. Sometimes a model will suddenly run a lot slower than before. It appears as if Core ML is trying to be smart in how to schedule things, but doesn’t always optimal.
 
-## SwiftUI example [for the package](https://github.com/The-Igor/coreml-stable-diffusion-swift)
+## The package [source](https://github.com/The-Igor/coreml-stable-diffusion-swift)
 
 
-## Case study [Deploying Transformers on the Apple Neural Engine](https://machinelearning.apple.com/research/neural-engine-transformers)
+## Deploying Transformers on the Apple Neural Engine [Case study](https://machinelearning.apple.com/research/neural-engine-transformers)
 
 
