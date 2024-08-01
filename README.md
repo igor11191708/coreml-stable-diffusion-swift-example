@@ -16,7 +16,7 @@ Enter a prompt or pick up a picture and press "Generate" (You don't need to prep
 
 ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
-### Typical set of files for models & the purpose of each file
+### Typical set of files for a model und the purpose of each file
 
 | File Name                            | Description                                                      |
 |--------------------------------------|------------------------------------------------------------------|
