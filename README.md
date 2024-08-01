@@ -13,7 +13,7 @@ The example app supports only ``split_einsum`` models. In terms of performance `
 
 ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
-### The purpose of each file
+### Typical set of files for models & the purpose of each file
 
 | File Name                            | Description                                                      |
 |--------------------------------------|------------------------------------------------------------------|
