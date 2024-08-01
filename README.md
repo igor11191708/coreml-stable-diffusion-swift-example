@@ -13,7 +13,7 @@ The example app for running text-to-image or image-to-image models to generate i
   ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_08.gif)
  
  ## How to use
-  
+
 1. Place at least one of your prepared split_einsum models into the ‘Local Models’ folder. Find the ‘Document’ folder through the interface by tapping on the ‘Local Models’ button. If the folder is empty, then create a folder named ‘models’. Refer to the folders’ hierarchy in the image below for guidance.
 The example app supports only ``split_einsum`` models. In terms of performance ``split_einsum`` is the fastest way to get result.
 2. Pick up the model that was placed at the local folder from the list. Click update button if you added a model while app was launched
