@@ -1,5 +1,4 @@
-# CoreML stable diffusion image generation
-## SwiftUI example
+# CoreML stable diffusion image generation example app
 
 The example app for running text-to-image or image-to-image models to generate images using [Apple's Core ML Stable Diffusion implementation](https://github.com/apple/ml-stable-diffusion)
 
