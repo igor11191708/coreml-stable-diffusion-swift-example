@@ -29,10 +29,10 @@ struct ToolBarContent: View {
             } label: {
                 HStack{
                     Image(systemName: "circle.hexagonpath.fill")
-                        .font(.title)
                     Text("Local models")
                       
                 }.foregroundColor(.green)
+                 .font(.title2)
             }
             .help("Models are expected in Document -> models folder")
     
