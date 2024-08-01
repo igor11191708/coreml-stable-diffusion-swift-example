@@ -38,9 +38,9 @@ Enter a prompt or pick up a picture and press "Generate" (You don't need to prep
 
  The speed can be unpredictable. Sometimes a model will suddenly run a lot slower than before. It appears as if Core ML is trying to be smart in how to schedule things, but doesn’t always optimal.
 
-## The package [source](https://github.com/The-Igor/coreml-stable-diffusion-swift)
+### The package [source](https://github.com/The-Igor/coreml-stable-diffusion-swift)
 
 
-## Deploying Transformers on the Apple Neural Engine [Case study](https://machinelearning.apple.com/research/neural-engine-transformers)
+### Deploying Transformers on the Apple Neural Engine [Case study](https://machinelearning.apple.com/research/neural-engine-transformers)
 
 
