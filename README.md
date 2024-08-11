@@ -1,5 +1,5 @@
 # CoreML stable diffusion image generation example app
-### Please star the repository if you believe continuing the development of this package is worthwhile. This will help me understand which package deserves more effort.
+### I am currently developing three open-source packages. Please star the repository if you believe continuing the development of this package is worthwhile. This will help me understand which package deserves more effort.
 
 The example app for running text-to-image or image-to-image models to generate images using [Apple's Core ML Stable Diffusion implementation](https://github.com/apple/ml-stable-diffusion)
 
