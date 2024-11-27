@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7883737D2C58FCEC007C71A5 /* img_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7883737C2C58FCEC007C71A5 /* img_01.png */; };
-		788373832C5A2EB1007C71A5 /* coreml-stable-diffusion-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 788373822C5A2EB1007C71A5 /* coreml-stable-diffusion-swift */; };
 		789DF2422A0BA5C9003AEAA3 /* img_08.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789DF2412A0BA5C9003AEAA3 /* img_08.gif */; };
 		789E96BC29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96BB29CDC71600E7C50A /* coreml_stable_diffusion_swift_exampleApp.swift */; };
 		789E96BE29CDC71600E7C50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E96BD29CDC71600E7C50A /* ContentView.swift */; };
@@ -85,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788373832C5A2EB1007C71A5 /* coreml-stable-diffusion-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +266,6 @@
 			);
 			name = "coreml-stable-diffusion-swift-example";
 			packageProductDependencies = (
-				788373822C5A2EB1007C71A5 /* coreml-stable-diffusion-swift */,
 			);
 			productName = "coreml-stable-diffusion-swift-example";
 			productReference = 789E96B829CDC71600E7C50A /* coreml-stable-diffusion-swift-example.app */;
@@ -343,7 +340,7 @@
 			);
 			mainGroup = 789E96AF29CDC71600E7C50A;
 			packageReferences = (
-				788373812C5A2E73007C71A5 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */,
+				786796282CF73AFB00352F7A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */,
 			);
 			productRefGroup = 789E96B929CDC71600E7C50A /* Products */;
 			projectDirPath = "";
@@ -742,23 +739,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		788373812C5A2E73007C71A5 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */ = {
+		786796282CF73AFB00352F7A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/coreml-stable-diffusion-swift";
+			repositoryURL = "https://github.com/igor11191708/coreml-stable-diffusion-swift";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		788373822C5A2EB1007C71A5 /* coreml-stable-diffusion-swift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 788373812C5A2E73007C71A5 /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */;
-			productName = "coreml-stable-diffusion-swift";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 789E96B029CDC71600E7C50A /* Project object */;
 }

@@ -1,13 +1,13 @@
 {
-  "originHash" : "d4c1f7b3336969183131dacb0085bcb55b5a6bb7bcf174bb964f7c111f85850f",
+  "originHash" : "700df8201d34fa0debac8aeef3b8b004d65eec7b9fc69cce1021684b95f8dfea",
   "pins" : [
     {
       "identity" : "coreml-stable-diffusion-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/The-Igor/coreml-stable-diffusion-swift",
+      "location" : "https://github.com/igor11191708/coreml-stable-diffusion-swift",
       "state" : {
         "branch" : "main",
-        "revision" : "35dfb6eff406c3378dde0f89bc65c385f4ba360b"
+        "revision" : "602143c71202f99c152f4e740227ae0e2e34126f"
       }
     },
     {
