@@ -1,6 +1,8 @@
 # CoreML stable diffusion image generation example app
 ### Please star the repository if you believe continuing the development of this package is worthwhile. This will help me understand which package deserves more effort.
 
+## [Documentation(API)](https://swiftpackageindex.com/igor11191708/coreml-stable-diffusion-swift/main/documentation/coreml_stable_diffusion_swift)
+
 The example app for running text-to-image or image-to-image models to generate images using [Apple's Core ML Stable Diffusion implementation](https://github.com/apple/ml-stable-diffusion)
 
 ![The concept](https://github.com/The-Igor/coreml-stable-diffusion-swift-example/blob/main/img/img_08.gif)
