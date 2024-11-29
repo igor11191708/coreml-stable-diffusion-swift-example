@@ -2,12 +2,12 @@
 ### Please star the repository if you believe continuing the development of this package is worthwhile. This will help me understand which package deserves more effort.
 
 
-## [Swift package source](https://github.com/igor11191708/coreml-stable-diffusion-swift)
-## [Documentation(API)](https://swiftpackageindex.com/igor11191708/coreml-stable-diffusion-swift/main/documentation/coreml_stable_diffusion_swift)
+## [Swift package source](https://github.com/swiftuiux/coreml-stable-diffusion-swift)
+## [Documentation(API)](https://swiftpackageindex.com/swiftuiux/coreml-stable-diffusion-swift/main/documentation/coreml_stable_diffusion_swift)
 
 The example app for running text-to-image or image-to-image models to generate images using [Apple's Core ML Stable Diffusion implementation](https://github.com/apple/ml-stable-diffusion)
 
-![The concept](https://github.com/igor11191708/coreml-stable-diffusion-swift-example/blob/main/img/img_08.gif)
+![The concept](https://github.com/swiftuiux/coreml-stable-diffusion-swift-example/blob/main/img/img_08.gif)
 
  ## How to get generated image
 
@@ -19,7 +19,7 @@ Pick up the model that was placed at the local folder from the list. Click updat
 ### Step 3 
 Enter a prompt or pick up a picture and press "Generate" (You don't need to prepare image size manually) It might take up to a minute or two to get the result
 
-![The concept](https://github.com/igor11191708/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
+![The concept](https://github.com/swiftuiux/coreml-stable-diffusion-swift-example/blob/main/img/img_03.png)
 
 ### Typical set of files for a model und the purpose of each file
 

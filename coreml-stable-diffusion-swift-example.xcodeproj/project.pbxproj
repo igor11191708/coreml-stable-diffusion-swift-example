@@ -744,7 +744,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		786796282CF73AFB00352F7A /* XCRemoteSwiftPackageReference "coreml-stable-diffusion-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/igor11191708/coreml-stable-diffusion-swift";
+			repositoryURL = "https://github.com/swiftuiux/coreml-stable-diffusion-swift";
 			requirement = {
 				branch = main;
 				kind = branch;
